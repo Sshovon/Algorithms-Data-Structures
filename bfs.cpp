@@ -3,7 +3,7 @@ using namespace std;
 
 vector< vector<int> > adj;
 vector<bool>used;
-vector<int>d, p;
+int d[1000005], p[1000005];
 /*
 void bfs(int s){
     queue<int>q;
