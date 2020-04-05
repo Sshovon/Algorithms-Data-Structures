@@ -18,9 +18,6 @@ Node* createnode(int key){
 ///there are mainly three methods of traversal pre-in-post
 ///using bfs method for searching in the binary tree
 Node* searchnode(Node* root,int key){
-    if(root==NULL)
-        return NULL;
-
     queue<Node*>q;
     q.push(root);
     while(!q.empty()){
